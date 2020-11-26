@@ -63,7 +63,7 @@ A WebScrapper tool for finding search results for a particular topic.
       - "tail" : get the last 3 bottom most results
 
       - ## Usage
-        - get*results(query: optional, **_flag_**: optional)
+        - get.results(query: optional, **_flag_**: optional)
         ```py
         SearchWizard().get_results(query = "python", flag = "head")
         ```
