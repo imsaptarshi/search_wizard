@@ -55,7 +55,7 @@ A WebScrapper tool for finding search results for a particular topic.
 
       <img src="./assets/clean-output.png">
 
-    ## **_Wanna depreciate some results?_** get the top and bottom results ny using a flag 🚩
+    ## **Wanna depreciate some results?** get the top and bottom results by using a flag 🚩
 
     - flag = "head" or "tail"
 
