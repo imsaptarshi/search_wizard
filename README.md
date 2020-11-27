@@ -21,7 +21,7 @@ A WebScrapper tool for finding search results for a particular topic.
   - #### SearchWizard(**_query_**: optional)
 
     - mention your search query in parameters (optional)
-    - get_results(**_query_**: optional, flag: optional)->list
+    - get*results(\*\*\_query*\*\*: optional, flag: optional)->list
 
     **you must have to put your `search query` in either of the two parameters.**
 
@@ -63,12 +63,17 @@ A WebScrapper tool for finding search results for a particular topic.
       - "tail" : get the last 3 bottom most results
 
       - ## Usage
+
         - get.results(query: optional, **_flag_**: optional)
+
         ```py
         SearchWizard().get_results(query = "python", flag = "head")
         ```
+
         or
+
         - prettify(**_flag_**: optional)
+
         ```py
         SearchWizard("python").prettify("tail")
         ```
