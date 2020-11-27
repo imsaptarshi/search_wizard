@@ -21,7 +21,7 @@ A WebScrapper tool for finding search results for a particular topic.
   - #### SearchWizard(**_query_**: optional)
 
     - mention your search query in parameters (optional)
-    - get*results(\*\*\_query*\*\*: optional, flag: optional)->list
+    - get*results(**_query_**: optional, flag: optional)->list
 
     **you must have to put your `search query` in either of the two parameters.**
 
